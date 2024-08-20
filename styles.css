@@ -11,6 +11,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 0px 20px 0px 20px;
 }
 
 .logo-div {
@@ -34,12 +37,95 @@ body {
     height: 24px;
     width: 24px;
     position: absolute;
-    bottom: 7px;
+    bottom: 3px;
     right: 20px;
+    background-color: #dcdaf9;
+    border-radius: 50%;
+    padding: 3px;
 }
 .search-input {
     width: 100%;
     height: 30px;
     border-radius: 20px;
     padding-left: 20px;
+}
+
+.menu {
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    gap: 30px;
+}
+.menu-btn {
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.column1 {
+    width: 50%;
+    padding: 20px;
+ 
+}
+.column2 {
+    background-color: #dcdaf9;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.cat {
+    width: 60%;
+}
+
+.header-text {
+    font-size: 35px;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    color: rgb(22, 22, 22); 
+}
+.text {
+    font-size: 10px;
+}
+
+.btn-container {
+    margin: 20px 0px 20px;
+    display: flex;
+    gap: 15px;
+}
+.action-btn {
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 3px;
+    width: 100px;
+}
+.blue-btn {
+    background-color: #9b93f9;
+    color: white;
+}
+.pink-btn {
+    background-color: #fc94c8;
+}
+
+.see-more-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.see-more-btn {
+    background-color: #F7EFE5;
+    border: none;
+    font-weight: bold;
+}
+.see-more-icon {
+    width: 16px;
+    height: 16px;
 }
